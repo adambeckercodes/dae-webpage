@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="img/follow/dae.svg" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -221,63 +222,37 @@
           Follow Us @daehair
         </h2>
 
-        <!-- Slider main container -->
-        <div class="swiper followSwiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper follow__wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-1.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-2.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-3.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-4.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-5.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-6.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-1.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-2.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-3.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-4.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-5.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-            <div class="swiper-slide follow__slide">
-              <img src="img/follow/follow-6.jpg" alt="Slider" class="follow__img">
-              <img src="img/follow/dae.svg" alt="Logo" class="follow__logo">
-            </div>
-
-
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="img/follow/follow-1.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+              <li class="splide__slide">
+                <img src="img/follow/follow-2.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+              <li class="splide__slide">
+                <img src="img/follow/follow-3.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+              <li class="splide__slide">
+                <img src="img/follow/follow-4.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+              <li class="splide__slide">
+                <img src="img/follow/follow-5.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+              <li class="splide__slide">
+                <img src="img/follow/follow-6.jpg" alt="follow" class="follow__img">
+                <img src="img/follow/dae.svg" alt="logo" class="follow__logo">
+              </li>
+            </ul>
           </div>
         </div>
+
       </div>
     </section>
   </main>
@@ -336,9 +311,10 @@
       </div>
     </div>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

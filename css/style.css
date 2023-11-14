@@ -193,6 +193,20 @@ img {
   max-width: 380px;
 }
 
+.catalog__item-img {
+  position: relative;
+}
+
+.catalog__item-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
 .catalog__item-title {
   margin: 0;
   padding: 0;
@@ -312,7 +326,7 @@ img {
   max-width: 230px;
 }
 
-.follow__img {
+.follow__carousel div {
   position: relative;
 }
 

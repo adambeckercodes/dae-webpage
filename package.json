@@ -1,0 +1,14 @@
+{
+  "name": "dae-pckg",
+  "version": "1.0.0",
+  "description": "A webpage from a 'Dae'-Template from Figma App",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
+  }
+}
